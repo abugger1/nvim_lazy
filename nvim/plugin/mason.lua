@@ -1,0 +1,25 @@
+-- return {
+--
+--
+--       require("mason-lspconfig").setup{
+--           ensure_installed = { "lua_ls", "rust_analyzer" },
+--       },
+--
+--       handlers = {
+--           function (server_name)
+--               print("setting up ", server_name)
+--               require("lspconfig")["server_name"].setup {}
+--           end,
+--       },
+--
+--     require("mason").setup({
+--         ui = {
+--             icons = {
+--                 package_installed = "✓",
+--                 package_pending = "➜",
+--                 package_uninstalled = "✗"
+--             }
+--         }
+--
+--     }),
+-- }
